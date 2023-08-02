@@ -15,7 +15,7 @@ const Home = () => {
   };
   const handleNavigateToResumePage = () => {
     window.open(
-      "https://drive.google.com/file/d/1CzdDBnJLthXT-ksAnVbp0bvd5k44gwU7/view?usp=sharing"
+      "https://drive.google.com/file/d/1l319aI8ccGnSFxNH3bVpqfvJz40fayIK/view?usp=sharing"
     );
   };
   return (
