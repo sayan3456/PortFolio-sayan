@@ -41,9 +41,9 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar__container">
-          {/* <Link to={"/"} className="navbar__container__logo"> */}
+         <Link to={"/"} className="navbar__container__logo">
           <img to={"/"} src={LogoImage} className="navbar__container__logo" alt="logo" />
-          {/* </Link> */}
+           </Link>
         </div>
         <ul className={`navbar__container__menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, key) => (
